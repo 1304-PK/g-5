@@ -15,7 +15,7 @@ export default function Home() {
       <header className="bg-black/95 border-b border-gray-900">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link to="/" className="text-2xl font-extrabold text-brand-400 select-none">g‑5</Link>
+            <Link to="/" className="text-2xl font-extrabold text-brand-400 select-none">Udemy Clone</Link>
             <nav className="hidden md:flex gap-6 text-sm text-gray-300">
               <Link to="/" className="hover:text-brand-400">Home</Link>
               <Link to="/courses" className="hover:text-brand-400">Courses</Link>
@@ -112,7 +112,7 @@ export default function Home() {
         {/* Instructor CTA */}
         <section className="mt-12 bg-gradient-to-r from-brand-800 to-brand-700 text-white rounded-lg p-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            <h3 className="text-xl font-bold">Teach on g‑5</h3>
+            <h3 className="text-xl font-bold">Add to Udemy Clone</h3>
             <p className="mt-2 text-sm text-gray-100 max-w-lg">Create a course, share your knowledge, and earn while helping learners grow.</p>
           </div>
           <div className="flex gap-3">
@@ -125,7 +125,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black/95 border-t border-gray-900">
         <div className="max-w-7xl mx-auto px-6 py-6 text-sm text-gray-400 flex flex-col md:flex-row items-center justify-between gap-3">
-          <div>© {new Date().getFullYear()} g‑5</div>
+          <div>© {new Date().getFullYear()} Udemy Clone</div>
           <div className="flex gap-4">
             <Link to="/terms" className="text-gray-400 hover:text-brand-400">Terms</Link>
             <Link to="/privacy" className="text-gray-400 hover:text-brand-400">Privacy</Link>
