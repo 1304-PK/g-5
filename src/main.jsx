@@ -1,11 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { RouterProvider } from "react-router-dom";
-import router from "./router";
-import "./index.css";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import WatchPage from './pages/WatchPage/WatchPage'
+import Home from './pages/Home'
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
-);
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/watch" element={<WatchPage />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>,
+)

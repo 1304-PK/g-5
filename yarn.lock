@@ -333,11 +333,6 @@
     redux-thunk "^2.4.2"
     reselect "^4.1.7"
 
-"@socket.io/component-emitter@~3.1.0":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.2.tgz#821f8442f4175d8f0467b9daf26e3a18e2d02af2"
-  integrity sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==
-
 "@types/lodash@^4.14.175":
   version "4.14.186"
   resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.186.tgz"
@@ -617,10 +612,55 @@ enquire.js@^2.1.6:
   resolved "https://registry.npmjs.org/enquire.js/-/enquire.js-2.1.6.tgz"
   integrity sha512-/KujNpO+PT63F7Hlpu4h3pE3TokKRHN26JYmQpPyjkRD/N57R7bPDNojMXdi7uveAKjYB7yQnartCxZnFWr0Xw==
 
+esbuild-android-64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.15.12.tgz#5e8151d5f0a748c71a7fbea8cee844ccf008e6fc"
+  integrity sha512-MJKXwvPY9g0rGps0+U65HlTsM1wUs9lbjt5CU19RESqycGFDRijMDQsh68MtbzkqWSRdEtiKS1mtPzKneaAI0Q==
+
+esbuild-android-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-android-arm64/-/esbuild-android-arm64-0.15.12.tgz#5ee72a6baa444bc96ffcb472a3ba4aba2cc80666"
+  integrity sha512-Hc9SEcZbIMhhLcvhr1DH+lrrec9SFTiRzfJ7EGSBZiiw994gfkVV6vG0sLWqQQ6DD7V4+OggB+Hn0IRUdDUqvA==
+
+esbuild-darwin-64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-darwin-64/-/esbuild-darwin-64-0.15.12.tgz#70047007e093fa1b3ba7ef86f9b3fa63db51fe25"
+  integrity sha512-qkmqrTVYPFiePt5qFjP8w/S+GIUMbt6k8qmiPraECUWfPptaPJUGkCKrWEfYFRWB7bY23FV95rhvPyh/KARP8Q==
+
+esbuild-darwin-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-s390x/-/esbuild-linux-s390x-0.15.12.tgz#3b1620220482b96266a0c6d9d471d451a1eab86f"
+  integrity sha512-Lt6BDnuXbXeqSlVuuUM5z18GkJAZf3ERskGZbAWjrQoi9xbEIsj/hEzVnSAFLtkfLuy2DE4RwTcX02tZFunXww==
+
+esbuild-netbsd-64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-netbsd-64/-/esbuild-netbsd-64-0.15.12.tgz#276730f80da646859b1af5a740e7802d8cd73e42"
+  integrity sha512-jlUxCiHO1dsqoURZDQts+HK100o0hXfi4t54MNRMCAqKGAV33JCVvMplLAa2FwviSojT/5ZG5HUfG3gstwAG8w==
+
+esbuild-openbsd-64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.15.12.tgz#bd0eea1dd2ca0722ed489d88c26714034429f8ae"
+  integrity sha512-1o1uAfRTMIWNOmpf8v7iudND0L6zRBYSH45sofCZywrcf7NcZA+c7aFsS1YryU+yN7aRppTqdUK1PgbZVaB1Dw==
+
+esbuild-sunos-64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.15.12.tgz#5e56bf9eef3b2d92360d6d29dcde7722acbecc9e"
+  integrity sha512-nkl251DpoWoBO9Eq9aFdoIt2yYmp4I3kvQjba3jFKlMXuqQ9A4q+JaqdkCouG3DHgAGnzshzaGu6xofGcXyPXg==
+
+esbuild-windows-32@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-32/-/esbuild-windows-32-0.15.12.tgz#a4f1a301c1a2fa7701fcd4b91ef9d2620cf293d0"
+  integrity sha512-WlGeBZHgPC00O08luIp5B2SP4cNCp/PcS+3Pcg31kdcJPopHxLkdCXtadLU9J82LCfw4TVls21A6lilQ9mzHrw==
+
 esbuild-windows-64@0.15.12:
   version "0.15.12"
-  resolved "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.12.tgz"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-64/-/esbuild-windows-64-0.15.12.tgz#bc2b467541744d653be4fe64eaa9b0dbbf8e07f6"
   integrity sha512-VActO3WnWZSN//xjSfbiGOSyC+wkZtI8I4KlgrTo5oHJM6z3MZZBCuFaZHd8hzf/W9KPhF0lY8OqlmWC9HO5AA==
+
+esbuild-windows-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.12.tgz#9a7266404334a86be800957eaee9aef94c3df328"
+  integrity sha512-Of3MIacva1OK/m4zCNIvBfz8VVROBmQT+gRX6pFTLPngFYcj6TFH/12VveAqq1k9VB2l28EoVMNMUCcmsfwyuA==
 
 esbuild-freebsd-64@0.15.12:
   version "0.15.12"
@@ -1277,7 +1317,7 @@ react-slick@^0.29.0:
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
 
-"react@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16 || ^17 || ^18", "react@^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16.9.0 || ^17.0.0 || ^18", react@^18.2.0, react@>=16.0.0, react@>=16.8, react@>=16.8.0:
+react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
